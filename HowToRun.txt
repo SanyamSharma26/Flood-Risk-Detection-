@@ -1,0 +1,13 @@
+To run this model(To make predictions)
+
+1) download floodSystem folder
+2) Navigate to folder (In floodSystem folder)
+3) Run this command 
+   -- > python scripts/predict.py --input <INPUT DATA>.csv --output predictions.csv
+  
+   For example to test that sample_input.csv
+   RUN --> python scripts/predict.py --input sample_input.csv --output predictions.csv
+
+   Predictions will save as predictions.csv
+
+4) To run new data convert data to CSV format first 
